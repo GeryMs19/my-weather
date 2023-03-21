@@ -12,7 +12,7 @@ class Navigator extends Component {
     render() {
         return (
             <NavigationContainer>
-                <Stack.Navigator initialRouteName="Profile" screenOptions={options}>
+                <Stack.Navigator initialRouteName="Home" screenOptions={options}>
                     <Stack.Screen name="Home" component={Home} />
                     <Stack.Screen name="Detail" component={Detail} />
                     <Stack.Screen name="Profile" component={Profile} />
