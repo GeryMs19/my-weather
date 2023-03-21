@@ -26,7 +26,7 @@ export default function Detail({ navigation }) {
                 <Text style={{color: '#fff', fontWeight: 'bold', fontSize: 22, textAlign: 'left'}}>Monday</Text>
             </View>
             <View style={{flexDirection:"row", alignItems: 'center'}}>
-                <Image source={require('../../assets/jenis/cerah.png')} style={{ width: 80, height: 80}} resizeMode='contain'/>
+                <Image source={require('../../assets/jenis/panas.png')} style={{ width: 80, height: 80}} resizeMode='contain'/>
                 <Text style={{color: '#fff', fontSize: 18}}>Sunny</Text>
             </View>
             <View>
@@ -36,7 +36,20 @@ export default function Detail({ navigation }) {
 
           <View style={{marginBottom: 5, justifyContent: 'space-between', flexDirection: 'row', paddingHorizontal: 22, alignItems: 'center'}}>
             <View>
-                <Text style={{color: '#fff', fontWeight: 'bold', fontSize: 22, textAlign: 'left'}}>Monday</Text>
+                <Text style={{color: '#fff', fontWeight: 'bold', fontSize: 22, textAlign: 'left'}}>Tuesday</Text>
+            </View>
+            <View style={{flexDirection:"row", alignItems: 'center'}}>
+                <Image source={require('../../assets/jenis/hujan-petir.png')} style={{ width: 80, height: 80}} resizeMode='contain'/>
+                <Text style={{color: '#fff', fontSize: 18}}>Thunder</Text>
+            </View>
+            <View>
+                <Text style={{color: '#fff', fontWeight: 'bold', fontSize: 22}}>+31 +51</Text>
+            </View>
+          </View>
+
+          <View style={{marginBottom: 5, justifyContent: 'space-between', flexDirection: 'row', paddingHorizontal: 22, alignItems: 'center'}}>
+            <View>
+                <Text style={{color: '#fff', fontWeight: 'bold', fontSize: 22, textAlign: 'left'}}>Wednesday</Text>
             </View>
             <View style={{flexDirection:"row", alignItems: 'center'}}>
                 <Image source={require('../../assets/jenis/cerah.png')} style={{ width: 80, height: 80}} resizeMode='contain'/>
@@ -49,7 +62,20 @@ export default function Detail({ navigation }) {
 
           <View style={{marginBottom: 5, justifyContent: 'space-between', flexDirection: 'row', paddingHorizontal: 22, alignItems: 'center'}}>
             <View>
-                <Text style={{color: '#fff', fontWeight: 'bold', fontSize: 22, textAlign: 'left'}}>Monday</Text>
+                <Text style={{color: '#fff', fontWeight: 'bold', fontSize: 22, textAlign: 'left'}}>Thursday</Text>
+            </View>
+            <View style={{flexDirection:"row", alignItems: 'center'}}>
+                <Image source={require('../../assets/jenis/mendung.png')} style={{ width: 80, height: 80}} resizeMode='contain'/>
+                <Text style={{color: '#fff', fontSize: 18}}>Cloudy</Text>
+            </View>
+            <View>
+                <Text style={{color: '#fff', fontWeight: 'bold', fontSize: 22}}>+31 +51</Text>
+            </View>
+          </View>
+
+          <View style={{marginBottom: 5, justifyContent: 'space-between', flexDirection: 'row', paddingHorizontal: 22, alignItems: 'center'}}>
+            <View>
+                <Text style={{color: '#fff', fontWeight: 'bold', fontSize: 22, textAlign: 'left'}}>Friday</Text>
             </View>
             <View style={{flexDirection:"row", alignItems: 'center'}}>
                 <Image source={require('../../assets/jenis/cerah.png')} style={{ width: 80, height: 80}} resizeMode='contain'/>
@@ -62,10 +88,10 @@ export default function Detail({ navigation }) {
 
           <View style={{marginBottom: 5, justifyContent: 'space-between', flexDirection: 'row', paddingHorizontal: 22, alignItems: 'center'}}>
             <View>
-                <Text style={{color: '#fff', fontWeight: 'bold', fontSize: 22, textAlign: 'left'}}>Monday</Text>
+                <Text style={{color: '#fff', fontWeight: 'bold', fontSize: 22, textAlign: 'left'}}>Saturday</Text>
             </View>
             <View style={{flexDirection:"row", alignItems: 'center'}}>
-                <Image source={require('../../assets/jenis/cerah.png')} style={{ width: 80, height: 80}} resizeMode='contain'/>
+                <Image source={require('../../assets/jenis/panas.png')} style={{ width: 80, height: 80}} resizeMode='contain'/>
                 <Text style={{color: '#fff', fontSize: 18}}>Sunny</Text>
             </View>
             <View>
@@ -75,33 +101,7 @@ export default function Detail({ navigation }) {
 
           <View style={{marginBottom: 5, justifyContent: 'space-between', flexDirection: 'row', paddingHorizontal: 22, alignItems: 'center'}}>
             <View>
-                <Text style={{color: '#fff', fontWeight: 'bold', fontSize: 22, textAlign: 'left'}}>Monday</Text>
-            </View>
-            <View style={{flexDirection:"row", alignItems: 'center'}}>
-                <Image source={require('../../assets/jenis/cerah.png')} style={{ width: 80, height: 80}} resizeMode='contain'/>
-                <Text style={{color: '#fff', fontSize: 18}}>Sunny</Text>
-            </View>
-            <View>
-                <Text style={{color: '#fff', fontWeight: 'bold', fontSize: 22}}>+31 +51</Text>
-            </View>
-          </View>
-
-          <View style={{marginBottom: 5, justifyContent: 'space-between', flexDirection: 'row', paddingHorizontal: 22, alignItems: 'center'}}>
-            <View>
-                <Text style={{color: '#fff', fontWeight: 'bold', fontSize: 22, textAlign: 'left'}}>Monday</Text>
-            </View>
-            <View style={{flexDirection:"row", alignItems: 'center'}}>
-                <Image source={require('../../assets/jenis/cerah.png')} style={{ width: 80, height: 80}} resizeMode='contain'/>
-                <Text style={{color: '#fff', fontSize: 18}}>Sunny</Text>
-            </View>
-            <View>
-                <Text style={{color: '#fff', fontWeight: 'bold', fontSize: 22}}>+31 +51</Text>
-            </View>
-          </View>
-
-          <View style={{marginBottom: 5, justifyContent: 'space-between', flexDirection: 'row', paddingHorizontal: 22, alignItems: 'center'}}>
-            <View>
-                <Text style={{color: '#fff', fontWeight: 'bold', fontSize: 22, textAlign: 'left'}}>Monday</Text>
+                <Text style={{color: '#fff', fontWeight: 'bold', fontSize: 22, textAlign: 'left'}}>Sunday</Text>
             </View>
             <View style={{flexDirection:"row", alignItems: 'center'}}>
                 <Image source={require('../../assets/jenis/cerah.png')} style={{ width: 80, height: 80}} resizeMode='contain'/>

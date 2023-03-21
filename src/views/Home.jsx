@@ -20,7 +20,7 @@ export default function Home({navigation}) {
           </View>
 
           <View style={{marginTop: 80, alignItems: 'center'}}>
-            <Text style={{color: '#FFF', fontSize: 28, textAlign: 'center', fontWeight: 'bold'}}>RANLY</Text>
+            <Text style={{color: '#FFF', fontSize: 28, textAlign: 'center', fontWeight: 'bold'}}>RAINLY</Text>
             <Image source={require('../../assets/rainy.png')} style={{ width: 200, height: 200}} resizeMode='contain'/>
             <Text style={{color: '#FFF', fontSize: 58, textAlign: 'center', fontWeight: 'bold'}}>23</Text>
             <Text style={{color: '#FFF', fontSize: 16, textAlign: 'center', fontWeight: 'bold'}}>WEDNESDAY, 21 MARET 2023 || 10.00</Text>

@@ -26,17 +26,17 @@ export default function Profile({navigation}) {
 
           <View style={{marginTop: 20, paddingHorizontal: 40}}>
             <Text style={{color: '#FFF', fontSize: 24}}>Nama Lengkap:</Text>
-            <Text style={{color: '#FFF', fontSize: 22}}>--------------</Text>
+            <Text style={{color: '#FFF', fontSize: 22}}>Gery Melia Suwanda</Text>
           </View>
 
           <View style={{marginTop: 20, paddingHorizontal: 40}}>
             <Text style={{color: '#FFF', fontSize: 24}}>NIM:</Text>
-            <Text style={{color: '#FFF', fontSize: 22}}>---------------</Text>
+            <Text style={{color: '#FFF', fontSize: 22}}>120140147</Text>
           </View>
 
           <View style={{marginTop: 20, paddingHorizontal: 40}}>
             <Text style={{color: '#FFF', fontSize: 24}}>Kelas:</Text>
-            <Text style={{color: '#FFF', fontSize: 22}}>------------</Text>
+            <Text style={{color: '#FFF', fontSize: 22}}>Pengembangan Aplikasi Mobila (RB)</Text>
           </View>
 
         </View>
